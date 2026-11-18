@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-11-06T21:44:39.857523",
+  "model_version": "conversion-hgb-iso-v1.0.0",
+  "reference_set": "locked_test",
+  "current_set": "out_of_time",
+  "reference_size": 502,
+  "current_size": 500,
+  "psi_results": {
+    "prior_visits_30d": 0.010442314167115278,
+    "prior_spend_180d": 0.04646402969742888
+  },
+  "max_psi": 0.04646402969742888,
+  "psi_status": "PASS",
+  "brier_ref": 0.0880914505662982,
+  "brier_current": 0.09068131308309342,
+  "brier_increase": 0.002589862516795216,
+  "brier_status": "PASS",
+  "action_dist_ref": {
+    "HOLD": 0.029880478087649404,
+    "CONTACT": 0.46613545816733065,
+    "NO_ACTION": 0.5039840637450199
+  },
+  "action_dist_current": {
+    "HOLD": 0.036,
+    "CONTACT": 0.448,
+    "NO_ACTION": 0.516
+  },
+  "tvd": 0.018135458167330667,
+  "tvd_status": "PASS",
+  "hard_rules_triggered": 5,
+  "soft_rules_triggered": 22,
+  "guardrail_summary": {
+    "no_guardrail": 473,
+    "soft_rule_low_confidence": 22,
+    "hard_rule_recent_contact": 5
+  },
+  "release_gates": {
+    "test_auc": {
+      "value": 0.5250091776798825,
+      "threshold": 0.5,
+      "passed": true
+    },
+    "brier_increase": {
+      "value": 0.002589862516795216,
+      "threshold": 0.035,
+      "passed": true
+    },
+    "max_psi": {
+      "value": 0.04646402969742888,
+      "threshold": 0.25,
+      "passed": true
+    },
+    "action_tvd": {
+      "value": 0.018135458167330667,
+      "threshold": 0.18,
+      "passed": true
+    }
+  },
+  "all_gates_passed": true,
+  "deployment_decision": "APPROVED"
+}

@@ -1,0 +1,14 @@
+{
+  "num_periods": 5,
+  "budget_per_period": 10000,
+  "capacity_per_period": 200,
+  "avg_greedy_value": 5453.44900182661,
+  "avg_milp_value": 5559.751441767258,
+  "avg_gain": 106.30243994064877,
+  "avg_gain_pct": 1.9554402925264571,
+  "avg_greedy_time_ms": 2.4236679077148438,
+  "avg_milp_time_ms": 13.672828674316406,
+  "speedup": 5.641378767608405,
+  "recommendation": "MILP",
+  "reason": "Cost variation lớn → MILP superior"
+}

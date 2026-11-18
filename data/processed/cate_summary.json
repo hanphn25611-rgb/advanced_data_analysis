@@ -1,0 +1,152 @@
+{
+  "test_set_size": 500,
+  "cate_mean": 0.06314642948074838,
+  "cate_std": 0.1060038403554704,
+  "cate_min": -0.20927449682453314,
+  "cate_max": 0.4989672601336756,
+  "heterogeneity_ratio": 1.6786988785769446,
+  "four_groups": {
+    "Persuadables": {
+      "Count": 233,
+      "Mean_CATE": 0.1478,
+      "Mean_μ₀": 0.0612,
+      "Mean_μ₁": 0.209,
+      "Percentage": 46.6
+    },
+    "Sure Things": {
+      "Count": 15,
+      "Mean_CATE": -0.0047,
+      "Mean_μ₀": 0.19,
+      "Mean_μ₁": 0.1853,
+      "Percentage": 3.0
+    },
+    "Lost Causes": {
+      "Count": 206,
+      "Mean_CATE": 0.0084,
+      "Mean_μ₀": 0.0556,
+      "Mean_μ₁": 0.064,
+      "Percentage": 41.2
+    },
+    "Sleeping Dogs": {
+      "Count": 46,
+      "Mean_CATE": -0.0981,
+      "Mean_μ₀": 0.1765,
+      "Mean_μ₁": 0.0784,
+      "Percentage": 9.2
+    }
+  },
+  "decile_analysis": {
+    "1": {
+      "Mean_CATE": -0.0939,
+      "Mean_μ₀": 0.1745,
+      "Mean_μ₁": 0.0806,
+      "Treatment_%": 40.0,
+      "Conversion_%": 18.0,
+      "N": 50
+    },
+    "2": {
+      "Mean_CATE": -0.0246,
+      "Mean_μ₀": 0.0936,
+      "Mean_μ₁": 0.069,
+      "Treatment_%": 50.0,
+      "Conversion_%": 4.0,
+      "N": 50
+    },
+    "3": {
+      "Mean_CATE": -0.004,
+      "Mean_μ₀": 0.0629,
+      "Mean_μ₁": 0.0589,
+      "Treatment_%": 36.0,
+      "Conversion_%": 14.000000000000002,
+      "N": 50
+    },
+    "4": {
+      "Mean_CATE": 0.0158,
+      "Mean_μ₀": 0.047,
+      "Mean_μ₁": 0.0628,
+      "Treatment_%": 56.00000000000001,
+      "Conversion_%": 10.0,
+      "N": 50
+    },
+    "5": {
+      "Mean_CATE": 0.034,
+      "Mean_μ₀": 0.0524,
+      "Mean_μ₁": 0.0864,
+      "Treatment_%": 57.99999999999999,
+      "Conversion_%": 6.0,
+      "N": 50
+    },
+    "6": {
+      "Mean_CATE": 0.0561,
+      "Mean_μ₀": 0.0554,
+      "Mean_μ₁": 0.1116,
+      "Treatment_%": 46.0,
+      "Conversion_%": 8.0,
+      "N": 50
+    },
+    "7": {
+      "Mean_CATE": 0.0836,
+      "Mean_μ₀": 0.0587,
+      "Mean_μ₁": 0.1423,
+      "Treatment_%": 50.0,
+      "Conversion_%": 6.0,
+      "N": 50
+    },
+    "8": {
+      "Mean_CATE": 0.1142,
+      "Mean_μ₀": 0.0481,
+      "Mean_μ₁": 0.1622,
+      "Treatment_%": 32.0,
+      "Conversion_%": 8.0,
+      "N": 50
+    },
+    "9": {
+      "Mean_CATE": 0.1611,
+      "Mean_μ₀": 0.0663,
+      "Mean_μ₁": 0.2273,
+      "Treatment_%": 44.0,
+      "Conversion_%": 6.0,
+      "N": 50
+    },
+    "10": {
+      "Mean_CATE": 0.2891,
+      "Mean_μ₀": 0.075,
+      "Mean_μ₁": 0.3641,
+      "Treatment_%": 46.0,
+      "Conversion_%": 16.0,
+      "N": 50
+    }
+  },
+  "segment_analysis": {
+    "Outdoor": {
+      "Mean_CATE": 0.0938,
+      "Std_CATE": 0.1195,
+      "Count": 113,
+      "%_Persuadables": 60.2
+    },
+    "Fashion": {
+      "Mean_CATE": 0.0801,
+      "Std_CATE": 0.1214,
+      "Count": 93,
+      "%_Persuadables": 52.7
+    },
+    "Tech": {
+      "Mean_CATE": 0.0641,
+      "Std_CATE": 0.1088,
+      "Count": 87,
+      "%_Persuadables": 48.3
+    },
+    "Health": {
+      "Mean_CATE": 0.0546,
+      "Std_CATE": 0.0914,
+      "Count": 97,
+      "%_Persuadables": 41.2
+    },
+    "Food": {
+      "Mean_CATE": 0.0241,
+      "Std_CATE": 0.0703,
+      "Count": 110,
+      "%_Persuadables": 30.9
+    }
+  }
+}

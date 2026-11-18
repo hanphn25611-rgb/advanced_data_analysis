@@ -1,0 +1,46 @@
+{
+  "pre_treatment_features": [
+    "campaign_id",
+    "channel",
+    "device",
+    "country",
+    "segment",
+    "prior_visits_30d",
+    "prior_spend_180d"
+  ],
+  "modeling_features": [
+    "campaign_id",
+    "channel",
+    "device",
+    "country",
+    "segment",
+    "prior_visits_30d",
+    "prior_spend_180d",
+    "value_tier"
+  ],
+  "post_treatment_columns": [
+    "treatment_exposed",
+    "impressions",
+    "clicks",
+    "spend_usd",
+    "conversion",
+    "revenue_usd",
+    "roi"
+  ],
+  "metadata_columns": [
+    "user_id"
+  ],
+  "engineered_features": [
+    "value_tier",
+    "channel_base_cost"
+  ],
+  "splits": [
+    "train",
+    "validation",
+    "locked_test",
+    "out_of_time"
+  ],
+  "decision_periods": 5,
+  "total_samples": 5000,
+  "seed": 42
+}

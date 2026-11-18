@@ -1,0 +1,26 @@
+{
+  "version": "conversion-hgb-iso-v1.0.0",
+  "created_date": "2026-11-06",
+  "seed": 42,
+  "training_samples": 3018,
+  "validation_samples": 1004,
+  "test_samples": 502,
+  "oot_samples": 500,
+  "base_model": "HistGradientBoostingClassifier",
+  "calibrator": "IsotonicRegression",
+  "features": [
+    "campaign_id",
+    "channel",
+    "device",
+    "country",
+    "segment",
+    "prior_visits_30d",
+    "prior_spend_180d",
+    "value_tier"
+  ],
+  "checksums": {
+    "processed_data": "77f85deb6e4d854fa0ffca72d5bc2a2a273926c60d47f28e01abc78d2c831d4c",
+    "predictive_model": "d7b64563e400819536e65ed508bfa8a2291e73c1fb9c8736a8b266c0afb86334",
+    "cate_models": "0e0c96c428fc23b47046f714e003b90b7f1581cf94b649fa7fd79991668300db"
+  }
+}
