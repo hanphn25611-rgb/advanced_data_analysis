@@ -4,9 +4,7 @@
 
 **Học viên:** Phan Hồ Ngọc Hân
 **MSSV:** C25611249
-**Lớp:** 261MIE401601
-**Học kỳ:** 1 - Năm học 2026-2027
-**Trường:** Đại học Kinh tế - Luật (UEL)
+
 
 ---
 
