@@ -1,6 +1,6 @@
 # Uplift Modeling cho Marketing Đa Kênh
 
-**Luận văn:** Phân tích Dữ liệu Nâng cao - Thạc sĩ Thương mại Điện tử
+**Tiểu luận:** Phân tích Dữ liệu Nâng cao - Thạc sĩ Thương mại Điện tử
 
 **Học viên:** Phan Hồ Ngọc Hân
 **MSSV:** C25611249
